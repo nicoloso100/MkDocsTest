@@ -1,8 +1,4 @@
-site_name: 'Windmill MkDocs Theme'
-site_description: 'MkDocs theme focused on navigation and usability.'
-site_author: 'Dmitry S'
-
-repo_url: https://github.com/gristlabs/mkdocs-windmill
+site_name: 'Documentación FE'
 
 theme:
   name: null
@@ -14,19 +10,10 @@ theme:
 
 # This should be renamed to nav for mkdocs 1.0+
 pages:
-- Usage: index.md
-- Customization: customization.md
-- Samples:
-  - Sample Page A: sample-a.md
-  - Sample Subfolder:
-    - Sample Subpage A1: a/sample-a1.md
-    - Sample Subpage A2: a/sample-a2.md
-  - Sample Page B: sample-b.md
+- Home: index.md
+- About: about.md
 
 markdown_extensions:
   - toc:
       permalink: '#'
 
-extra:
-  history_buttons: false
-  version: 0.1.8
